@@ -1,9 +1,9 @@
 import React from "react";
 
 const index = () => {
-	return<>
-		ㅁㄴㅇㅁㄹㄴㅇ
-	</>
+	return<div className="authBox">
+
+	</div>
 }
 
 export default index

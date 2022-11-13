@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import AuthLayout from "./layout/AuthLayout";
 import Login from "./pages/auth/Login";
 
+import './assets/index.scss';
+
 
 
 function App() {
