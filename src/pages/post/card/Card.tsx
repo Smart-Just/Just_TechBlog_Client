@@ -1,6 +1,6 @@
 const Card = () => {
-	return <>
-	</>
+	return <div className={"postCard"}>
+	</div>
 }
 
 export default Card;

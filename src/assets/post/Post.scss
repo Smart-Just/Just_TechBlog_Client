@@ -1,0 +1,30 @@
+.cardPostBox {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 80%;
+  padding: 50px 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #86A8E7;
+  .imgBox{
+    width: 100%;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  p.descBox{
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+  }
+  p:last-child {
+    float: right;
+    color: #aaa;
+  }
+}
