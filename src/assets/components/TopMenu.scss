@@ -1,0 +1,30 @@
+nav{
+  width: 100vw;
+  height: 50px;
+  h1{
+    float: left;
+    line-height: 45px;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 10pt;
+    b{
+      font-size: 15pt;
+    }
+  }
+  ul{
+    float: right;
+    margin-right: 20px;
+    li{
+      color: #959595;
+      display: inline-block;
+      line-height: 30px;
+      margin: 10px;
+      transition: .5s;
+      cursor: pointer;
+      &:hover{
+        color: black;
+      }
+    }
+  }
+
+}

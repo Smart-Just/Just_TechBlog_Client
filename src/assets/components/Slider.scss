@@ -1,0 +1,49 @@
+.sliderMain{
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  background-color: #d3ebff;
+  .textItem{
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 20pt;
+    letter-spacing: -1px;
+    p:first-child{
+      position: absolute;
+      left: -50px;
+      top: -30px;
+      font-weight: bold;
+      opacity: 0;
+      animation-name: showText;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    p:last-child{
+
+      position: absolute;
+      font-weight: lighter;
+      left: -50px;
+      width: 228px;
+      animation-name: showText;
+      animation-duration: 1s;
+      opacity: 0;
+      animation-delay: .5s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes showText {
+  0%{
+    opacity: 0;
+    left: -10;
+  }
+  100%{
+    opacity: 1;
+    left: 0;
+  }
+
+}

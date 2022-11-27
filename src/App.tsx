@@ -1,7 +1,7 @@
 import React from 'react';
 import {useRoutes} from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
-import Home from "./pages/Home";
+import Post from "./pages/post/Post";
 import AuthLayout from "./layout/AuthLayout";
 import Login from "./pages/auth/Login";
 
@@ -16,7 +16,7 @@ function App() {
       path: '/' ,
       element : <MainLayout />,
       children: [
-        {path: '', element: <Home />}
+        {path: '', element: <Post />}
       ]
     },
     {
